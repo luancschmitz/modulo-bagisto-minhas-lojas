@@ -1,2 +1,3 @@
 # Módulo Bagisto Minhas Lojas
-Módulo utilizado no tutorial no site bagisto.com.br
+Essa tag o módulo foi utilizada no seguinte tutorial:
+https://bagisto.com.br/post/tutorial-criacao-de-um-crud-no-admin
