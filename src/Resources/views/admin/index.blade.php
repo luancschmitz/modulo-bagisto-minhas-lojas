@@ -14,5 +14,6 @@
                 <a href="{{route('minhaslojas.admin.create')}}" class="btn btn-lg btn-primary">Nova Loja</a>
             </div>
         </div>
+        {!! app(LuanCS\MinhasLojas\DataGrid\MinhasLojasDataGrid::class)->render() !!}
     </div>
 @endsection
