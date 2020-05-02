@@ -25,13 +25,27 @@ class MinhasLojasController extends Controller
         return redirect(route('minhaslojas.admin.index'));
     }
 
-    public function update()
+    public function edit($id)
     {
-
+        $loja = Loja::find($id);
+        return view('minhaslojas::admin.edit', compact('loja'));
     }
 
-    public function destroy()
+    public function update(Request $request, $id)
     {
+        $loja = Loja::find($id);
 
+        $loja->nome = $request->nome;
+        $loja->endereco = $request->endereco;
+        $loja->save();
+
+        return redirect(route('minhaslojas.admin.index'));
+    }
+
+    public function destroy($id)
+    {
+        $loja = Loja::find($id);
+        $loja->delete();
+        return redirect(route('minhaslojas.admin.index'));
     }
 }
