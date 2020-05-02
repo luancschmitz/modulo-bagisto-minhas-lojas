@@ -1,2 +1,2 @@
-# modulo-bagisto-minhas-lojas
+# Módulo Bagisto Minhas Lojas
 Módulo utilizado no tutorial no site bagisto.com.br

@@ -1,0 +1,25 @@
+{
+  "name": "luancs/minhas-lojas",
+  "description": "Módulo de Listagem de Lojas",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Luan Carlos",
+      "email": "luan_c_schmitz@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "VendorName\\PackageName\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LuanCS\\MinhasLojas\\Providers\\MinhasLojasServiceProvider"
+      ]
+    }
+  }
+}
